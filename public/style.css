@@ -1,0 +1,49 @@
+/* Grundlayout der Seite */
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4f6f8;
+    margin:0;
+    padding:40px;
+}
+
+/* Überschrift */
+h1{
+    color:#222;
+    margin-bottom:20px;
+}
+
+/* Button */
+button{
+    background-color:#2d89ef;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    font-size:18px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+/* Hover Effekt */
+button:hover{
+    background-color:#1b5fa7;
+}
+
+/* Bereich für die Ausgabe */
+#output{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* kleine mobile Optimierung */
+@media (max-width:600px){
+    body{
+        padding:20px;
+    }
+
+    button{
+        width:100%;
+    }
+}
