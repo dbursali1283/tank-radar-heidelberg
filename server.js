@@ -3,10 +3,10 @@ const path = require("path");
 const fetch = require("node-fetch");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // 🔐 Hier später deinen Tankerkönig API Key eintragen
-const API_KEY = "DEIN_API_KEY";
+const API_KEY = process.env.API_KEY 
 
 // statische Webseite aus /public laden
 app.use(express.static(path.join(__dirname, "public")));

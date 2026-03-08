@@ -2,7 +2,7 @@
 
 Dieses Projekt zeigt Tankstellenprise im Raum Heidelberg.
 
-## Technologi
+## Technologien
 - HTML
 - CSS
 - JavaScript
